@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>信息索引 · 竞技宝资料整理</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background: #f7f4ef;
+      color: #2e2b28;
+      font-family: 'Georgia', 'Times New Roman', 'Noto Serif SC', serif;
+      line-height: 1.7;
+      padding: 2rem 1.5rem;
+    }
+    .page {
+      max-width: 880px;
+      margin: 0 auto;
+      background: #fcfaf7;
+      padding: 2.8rem 2.2rem;
+      border-radius: 24px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.03);
+    }
+    @media (max-width: 600px) {
+      body { padding: 1rem; }
+      .page { padding: 1.8rem 1.2rem; }
+    }
+
+    /* hero 区 */
+    .hero {
+      border-bottom: 1px solid #e6dfd6;
+      padding-bottom: 2rem;
+      margin-bottom: 2.2rem;
+    }
+    .hero h1 {
+      font-size: 2.4rem;
+      font-weight: 500;
+      letter-spacing: 1px;
+      color: #2d2924;
+    }
+    .hero .sub {
+      color: #6b6257;
+      font-size: 1rem;
+      margin-top: 0.6rem;
+      border-left: 4px solid #c6b29a;
+      padding-left: 1rem;
+    }
+
+    /* 通用排版 */
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 450;
+      margin: 2rem 0 0.8rem 0;
+      color: #3f3932;
+      border-bottom: 1px dashed #dad3ca;
+      padding-bottom: 0.3rem;
+    }
+    p {
+      margin-bottom: 1.1rem;
+    }
+    a {
+      color: #7f6b58;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      transition: color 0.2s;
+    }
+    a:hover {
+      color: #4f3f32;
+    }
+
+    /* 引用块 / 提示框 */
+    .note-box {
+      background: #f1ece5;
+      border-left: 6px solid #b8a690;
+      padding: 1.1rem 1.4rem;
+      margin: 1.6rem 0;
+      border-radius: 0 12px 12px 0;
+      font-size: 0.96rem;
+      color: #3f3a33;
+    }
+    .note-box strong {
+      color: #5b4d3e;
+    }
+
+    /* 说明区卡片网格 */
+    .card-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.2rem;
+      margin: 1.2rem 0;
+    }
+    @media (max-width: 560px) {
+      .card-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    .card-item {
+      background: #f6f2ec;
+      border-radius: 16px;
+      padding: 1.2rem 1.1rem;
+    }
+    .card-item h3 {
+      font-size: 1.05rem;
+      font-weight: 500;
+      margin-bottom: 0.4rem;
+      color: #3f352c;
+    }
+    .card-item p {
+      font-size: 0.92rem;
+      margin-bottom: 0;
+      color: #4b443b;
+    }
+
+    /* FAQ 摘要 */
+    .faq-block {
+      margin: 1.8rem 0;
+    }
+    .faq-item {
+      padding: 0.7rem 0;
+      border-bottom: 1px solid #e4ddd3;
+    }
+    .faq-item:last-child {
+      border-bottom: none;
+    }
+    .faq-q {
+      font-weight: 500;
+      color: #4b3f35;
+      display: block;
+      margin-bottom: 0.2rem;
+    }
+    .faq-a {
+      font-size: 0.92rem;
+      color: #5f554a;
+      padding-left: 0.5rem;
+    }
+
+    /* 底部链接 */
+    .footer-links {
+      margin-top: 2.5rem;
+      padding-top: 1.2rem;
+      border-top: 1px solid #e0d8cf;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #71695e;
+    }
+    .footer-links span {
+      margin: 0 0.6rem;
+      color: #c0b6aa;
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- hero 区 -->
+  <div class="hero">
+    <h1>竞技宝 · 信息索引</h1>
+    <div class="sub">一份从资料整理视角出发的温和笔记&ensp;·&ensp;内容梳理与常见问题摘要</div>
+  </div>
+
+  <!-- 切入角度：资料整理 / 信息索引 -->
+  <p>
+    在收集和浏览各类电子竞技相关内容时，经常会遇到需要快速定位有效信息的场景。无论是赛事日程、选手动态，还是平台活动与社区讨论，一个结构清晰的索引入口往往能节省大量筛选时间。<a href="https://root-jjbdianjing.com">竞技宝</a>作为不少玩家和爱好者会接触到的站点，其页面分类与内容更新方式也值得做一次系统的梳理。这里不展开评价或推荐，仅从信息组织角度提供一份温和的参考。
+  </p>
+
+  <!-- 优势区（以卡片 + 引用提示框呈现） -->
+  <h2>几个值得留意的整理维度</h2>
+  <div class="card-grid">
+    <div class="card-item">
+      <h3>赛事信息聚合</h3>
+      <p>热门项目的赛程、战队数据与历史记录往往分布在多个子页面，提前了解其导航逻辑能帮助更高效地回溯。</p>
+    </div>
+    <div class="card-item">
+      <h3>社区讨论筛选</h3>
+      <p>论坛与评论区的内容流动性较强，部分整理帖或汇总贴常被置顶，可作为快速了解的起点。</p>
+    </div>
+    <div class="card-item">
+      <h3>活动规则说明</h3>
+      <p>各类限时或长期活动的参与条件、奖励发放时间等信息建议以官方页面公示为准，第三方整理仅作参考。</p>
+    </div>
+    <div class="card-item">
+      <h3>账号与安全提示</h3>
+      <p>无论在哪类平台，保管好个人凭证、留意仿冒链接都是基本习惯，建议通过信任的浏览器书签直接访问。</p>
+    </div>
+  </div>
+
+  <!-- 说明区 + 引用提示框 -->
+  <h2>一些温和的整理笔记</h2>
+  <p>
+    在信息聚合层面，多数垂直站点都会提供“热门赛事”“最新资讯”“排行榜”等模块，<a href="https://root-jjbdianjing.com">竞技宝</a>的首页布局也遵循了类似的分类逻辑。不过，由于不同板块的更新频率并不一致，有时直接搜索关键词反而比逐层点击更快。我的习惯是先将常用页面收藏至浏览器文件夹，再根据时间线定期翻阅。
+  </p>
+
+  <div class="note-box">
+    <strong>📋 整理小提示</strong><br>
+    如果你也在尝试建立自己的信息索引，不妨从三个入口开始：赛事时间表、活动公告区、以及用户帮助文档。多数站点的这三个区域相对稳定，适合作为锚点。
+  </div>
+
+  <p>
+    另外，站内搜索功能（如果存在）通常比外部搜索引擎更能命中站点特有的分类和术语，尤其当你想查找某个历史活动或特定战队的过往战绩时。把搜索框当做第一站，往往比翻目录更省力。
+  </p>
+
+  <!-- FAQ 摘要（不重复，只取 3 条常见方向） -->
+  <h2>FAQ 摘要 · 来自社区常见疑问</h2>
+  <div class="faq-block">
+    <div class="faq-item">
+      <span class="faq-q">▸ 如何快速找到最近一周的赛事安排？</span>
+      <div class="faq-a">一般会在首页“赛事”或“赛程”子页里以周历或列表形式展示。部分站点支持按游戏筛选，可以留意下拉菜单。</div>
+    </div>
+    <div class="faq-item">
+      <span class="faq-q">▸ 活动奖励的发放时间通常在哪里说明？</span>
+      <div class="faq-a">活动规则详情页或公告帖中会注明“发奖时间”或“到账说明”。若长时间未收到，可通过客服渠道查询，不建议轻信非官方渠道的催促信息。</div>
+    </div>
+    <div class="faq-item">
+      <span class="faq-q">▸ 看到不同的网址，如何确认是同一个站点？</span>
+      <div class="faq-a">建议以最初收藏或记住的域名为准，也可以通过官方社交媒体主页提供的链接进行核对。仿冒链接往往在细节处有差异，多看几遍就不会弄混。</div>
+    </div>
+  </div>
+
+  <!-- 结尾段落 + 自然嵌入链接 -->
+  <p>
+    整理信息的过程本身也是一种学习。随着时间推移，我们接触到的新内容、新玩法、新社区都在不断增加，保持一个干净的索引结构会很有帮助。如果你也习惯把常用站点集中管理，不妨将<a href="https://root-jjbdianjing.com">竞技宝</a>放入一个专门的文件夹，并定期清理失效或重复的书签。
+  </p>
+
+  <!-- 底部链接 -->
+  <div class="footer-links">
+    <span>资料页面 · 非官方运营</span>
+    <span>|</span>
+    <span>内容仅供参考，请以实际页面为准</span>
+  </div>
+
+</div>
+</body>
+</html>
